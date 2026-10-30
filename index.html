@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheng Ran · Applied Mathematics & Machine Learning</title>
+<meta name="description" content="Sheng Ran — PhD student at BIMSA and Renmin University of China. Multiscale theory, forward and inverse problems of differential equations, and machine learning.">
+<style>
+  :root {
+    --bg: #fdfdfc;
+    --fg: #1a1a1a;
+    --muted: #6b6b6b;
+    --rule: #e4e4e1;
+    --accent: #8a3a1e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14130f;
+      --fg: #eceae4;
+      --muted: #9a978f;
+      --rule: #2c2a25;
+      --accent: #d99a6c;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", Helvetica, Arial, sans-serif;
+    font-feature-settings: "kern" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 5rem 1.5rem 4rem; }
+  @media (max-width: 640px) { .wrap { padding: 3rem 1.25rem 3rem; } }
+
+  header { margin-bottom: 3rem; }
+  h1 {
+    font-size: clamp(1.9rem, 5vw, 2.6rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin: 0 0 .5rem;
+    font-weight: 600;
+  }
+  h1 .zh { color: var(--muted); font-weight: 400; font-size: .62em; margin-left: .5rem; letter-spacing: 0; }
+  .role { font-size: 1.05rem; margin: 0 0 .25rem; }
+  .role strong { font-weight: 600; }
+  .affil { color: var(--muted); margin: 0 0 1.5rem; font-size: .95rem; }
+
+  nav.links { display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; font-size: .92rem; }
+  nav.links a {
+    color: var(--fg);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1px;
+    transition: border-color .15s;
+  }
+  nav.links a:hover, nav.links a:focus-visible { border-color: var(--accent); color: var(--accent); }
+
+  section { margin: 2.75rem 0 0; }
+  h2 {
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: var(--muted);
+    font-weight: 600;
+    margin: 0 0 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  p { margin: 0 0 1rem; }
+  p:last-child { margin-bottom: 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  strong { font-weight: 600; }
+  em { font-style: italic; }
+
+  ul.pubs { list-style: none; padding: 0; margin: 0; }
+  ul.pubs li { padding: 0 0 1.05rem; margin: 0 0 1.05rem; border-bottom: 1px solid var(--rule); }
+  ul.pubs li:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+  .ptitle { display: block; margin-bottom: .2rem; }
+  .pmeta { display: block; color: var(--muted); font-size: .9rem; }
+  .ptag {
+    display: inline-block;
+    font-size: .72rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0 .35rem;
+    margin-left: .4rem;
+    vertical-align: .08em;
+  }
+  .me { font-weight: 600; }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: .82rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: .5rem;
+  }
+  @media print {
+    :root { --bg: #fff; --fg: #000; --muted: #444; --accent: #000; }
+    .wrap { padding: 0; max-width: none; }
+    nav.links, footer { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Sheng Ran<span class="zh">冉升</span></h1>
+    <p class="role"><strong>PhD Student</strong>, Applied Mathematics &amp; Machine Learning</p>
+    <p class="affil">Renmin University of China &middot; Beijing Institute of Mathematical Sciences and Applications (BIMSA)</p>
+    <nav class="links">
+      <a href="mailto:ransheng@bimsa.cn">Email</a>
+      <a href="https://www.researchgate.net/profile/Sheng-Ran-6">ResearchGate</a>
+      <a href="https://www.bimsa.cn/detail/ShengRan.html">BIMSA</a>
+      <a href="https://github.com/Ran-Sheng">GitHub</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      I am a PhD student in the joint doctoral program between the Beijing Institute of Mathematical
+      Sciences and Applications (BIMSA) and Renmin University of China, in the group
+      <em>Theory and Computation of PDE</em>.
+    </p>
+    <p>
+      My research sits at the intersection of applied mathematics, scientific computing and machine
+      learning: <strong>multiscale theory</strong>, the <strong>forward and inverse problems of
+      differential equations</strong>, and learning-based methods for solving and inferring across scales.
+    </p>
+  </section>
+
+  <section>
+    <h2>Research interests</h2>
+    <p>
+      Multiscale methods &middot; Partial and ordinary differential equations &middot; Inverse problems &middot;
+      Scientific machine learning &middot; Model reduction &middot; Knowledge distillation
+    </p>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+    <ul class="pubs">
+      <li>
+        <span class="ptitle">Tailored knowledge distillation with automated loss function learning</span>
+        <span class="pmeta"><span class="me">Sheng Ran</span>, Tao Huang, Wuyue Yang &middot; <em>PLOS ONE</em>, 2025 <span class="ptag">first author</span></span>
+        <span class="pmeta"><a href="https://doi.org/10.1371/journal.pone.0325599">doi:10.1371/journal.pone.0325599</a></span>
+      </li>
+      <li>
+        <span class="ptitle">Improving generalization ability of deep-learning-based ODE solvers using continuous dependence</span>
+        <span class="pmeta">Guojie Li, <span class="me">Sheng Ran</span>, Wuyue Yang, Liu Hong &middot; <em>npj Artificial Intelligence</em> 1(1), 2025</span>
+        <span class="pmeta"><a href="https://doi.org/10.1038/s44387-025-00026-6">doi:10.1038/s44387-025-00026-6</a></span>
+      </li>
+      <li>
+        <span class="ptitle">Data-driven phase-aware knowledge distillation for stiff chemical reaction networks</span>
+        <span class="pmeta">Wuyue Yang, <span class="me">Sheng Ran</span>, Liu Hong &middot; <em>Preprint</em>, 2026</span>
+        <span class="pmeta"><a href="https://doi.org/10.21203/rs.3.rs-10546497/v1">doi:10.21203/rs.3.rs-10546497/v1</a></span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Code</h2>
+    <p>
+      <a href="https://github.com/Ran-Sheng/LKD">LKD</a> &mdash; learnable knowledge distillation loss (Python).
+    </p>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 Sheng Ran</span>
+    <span>Beijing, China</span>
+  </footer>
+
+</div>
+</body>
+</html>
